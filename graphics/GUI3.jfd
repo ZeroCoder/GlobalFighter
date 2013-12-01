@@ -1,0 +1,237 @@
+JFDML JFormDesigner: "5.1.1.0.120" Java: "1.7.0_10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "GlobalFighter Settings"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "GlobalFighter"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 19, false )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 80
+				"y": 10
+			} )
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel1"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						add( new FormComponent( "javax.swing.JEditorPane" ) {
+							name: "editorPane1"
+							"text": "Thanks for using GlobalFighter 1.0\nThe Current Version Contains Attacking any Entity, Looting anything & Eat anything\n\nInstructions how to get Food & Loot ID:\n\nDebug -> Inventory -> Enter Food ID there.\nDebug -> GroundItems -> Loot ID there.\nEnJoy It, Any bugs Report to Thread at www.Shadowbot.org/forum/"
+							"editable": false
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 5
+						"width": 390
+						"height": 155
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Main"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Select Entity"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 15
+						"height": 20
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "entityField"
+						"text": "Chicken"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 70
+						"y": 15
+						"width": 315
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "Select Food"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 40
+						"height": 20
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "foodfield"
+						"text": "0"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 315
+						"height": 22
+						"x": 70
+						"y": 40
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Select Loot"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 65
+						"height": 20
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "lootField"
+						"text": "0"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 315
+						"height": 22
+						"x": 70
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "lootCheck"
+						"text": "Loot"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 95
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "herbsCheck"
+						"text": "Herbs"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 120
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "foodCheck"
+						"text": "Food"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 70
+						"y": 95
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Functions"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel3"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Choose Entity Location Below"
+						"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 15
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "startLoc"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 35
+						"width": 295
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "Choose Bank Location Below"
+						"font": #SwingDerivedFont0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 164
+						"height": 14
+						"x": 5
+						"y": 70
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "setStart"
+						"text": "Set"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 305
+						"y": 30
+						"width": 80
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "bankLoc"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 295
+						"height": 22
+						"x": 0
+						"y": 89
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "setBank"
+						"text": "Set"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 80
+						"height": 30
+						"x": 305
+						"y": 85
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "bankCheck"
+						"text": "Bank"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 120
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Banking"
+					"enabled": false
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel4"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "Profile"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 10
+						"height": 24
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "profileField"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 40
+						"y": 10
+						"width": 340
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "loadButton"
+						"text": "Load"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 40
+						"y": 40
+						"width": 115
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveButton"
+						"text": "Save"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 115
+						"height": 26
+						"x": 155
+						"y": 40
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Profiles"
+					"enabled": false
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 60
+				"width": 395
+				"height": 185
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Start Fighting"
+				"font": new java.awt.Font( "Tahoma", 1, 26 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 245
+				"width": 390
+				"height": 65
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 345 )
+		} )
+	}
+}
