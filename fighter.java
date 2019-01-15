@@ -24,7 +24,7 @@ import java.net.URL;
 /**
  * User: Pen
  */
-@Manifest(author = "Calle", category = SkillCategory.COMBAT, description = "GlobalFighter", scriptName = "ShadowFighter")
+@Manifest(author = "Farhad", category = SkillCategory.COMBAT, description = "GlobalFighter", scriptName = "ShadowFighter")
 public class fighter extends ShadowScript implements PaintListener {
     private final Color color1 = new Color(255, 255, 255);
     private final Font font1 = new Font("Arial", 1, 17);
